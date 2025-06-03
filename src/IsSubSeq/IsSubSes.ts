@@ -1,5 +1,42 @@
 export function isSubsequence(s: string, t: string): boolean {
     
+    let i = 0;
+    let j = 0;
+    const ns = s.length;
+    const nt = t.length;
+
+    while(i<ns && j<nt){
+        if(s[i] != t[j]){
+            j++;
+        }
+        else if( s[i] === t[j] ) {
+            i++;
+            j=0
+        }
+        
+    }
+    console.log(i, ns)
+    return i === ns;
+
+};
+
+/*
+const sarr = s.split("");
+    const tarr = t.split("");
+
+    let i = 0, j = 0;
+
+    while (i < sarr.length && j < tarr.length) {
+        if (sarr[i] === tarr[j]) {
+            i++;
+        }
+        j++;
+    }
+
+    return i === sarr.length;
+
+*******************************************************************
+
     const sn = s.length;
     const tn = t.length;
     
@@ -22,4 +59,4 @@ export function isSubsequence(s: string, t: string): boolean {
     }
 
     return true;
-};
+*/

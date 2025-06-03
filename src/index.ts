@@ -13,6 +13,7 @@ import { candy } from "./Candy/Candy"
 import { pivotIndex } from "./PivotIndex/PivotIndex"
 import { minSubArrayLen } from "./MiniSizeSubarrSum/MinSizeSubarrSum"
 import { isPalindrome } from "./IsPalindrome/IsPalindrome"
+import { maxSumSubArray } from "./MaxSumSubArr/MaxSumSubArr"
 
 //console.log(removeElement([3,2,2,3],3))
 //console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
@@ -22,10 +23,11 @@ import { isPalindrome } from "./IsPalindrome/IsPalindrome"
 //console.log(rotate([1,2,3,4,5,6,7], 3));
 //console.log(canJump([2,3,1,1,4]))
 //console.log(lengthOfLastWord("   fly me   to   the moon  "))
-//console.log(isSubsequence("abch", "ahbgdc"))
+//console.log(isSubsequence("abc", "ahbgdc"))
 //console.log(threeSum([-1,0,1,2,-1,-4]))
 //console.log(maxAverageSubarray([1, 12, -5, -6, 50, 3], 4));
 //console.log(candy([1,0,2])) /////still
 //console.log(pivotIndex([1, 7, 3, 6, 5, 6]))
 //console.log(minSubArrayLen(7, [2,3,1,2,4,3]))
-console.log(isPalindrome("abcba"))
+//console.log(isPalindrome("abcba"))
+console.log(maxSumSubArray([2, 1, 5, 1, 3, 2], 3))
