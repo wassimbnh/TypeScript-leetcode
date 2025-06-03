@@ -1,6 +1,6 @@
 export function pivotIndex(nums: number[]): number{
 
-    let leftSum = 0;
+     let leftSum = 0;
     const sum = nums.reduce((acc, n) => acc + n, 0);
     
     for(let i=0; i< nums.length; i++){
@@ -8,7 +8,7 @@ export function pivotIndex(nums: number[]): number{
         if(leftSum === rightSum) return i;
         leftSum+=nums[i]
     }
-
+    
     return -1;
 }
 
@@ -40,6 +40,8 @@ export function pivotIndex(nums: number[]): number{
 
 
     return -1;
+
+
 } */
 
 /*edge cases:
