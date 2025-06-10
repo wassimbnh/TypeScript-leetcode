@@ -19,10 +19,8 @@ import { solution1 } from "./Codility.ts/Solution1"
 import { solution2 } from "./Codility.ts/Solution2"
 
 
-console.log(solution1())
-console.log(solution2())
 //console.log(solution([1, 3, 6, 4, 1, 2]))
-//console.log(removeElement([0,1,2,2,3,0,4,2],2))
+console.log(removeElement([0,1,2,2,3,0,4,2],2))
 //console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
 //console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
 //console.log(majorityElement([6,6,6,7,7]))
