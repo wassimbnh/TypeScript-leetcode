@@ -17,10 +17,10 @@ import { maxSumSubArray } from "./MaxSumSubArr/MaxSumSubArr"
 import { solution } from "./MinPosNonOcc/MinPosNonOcc"
 import { solution1 } from "./Codility.ts/Solution1"
 import { solution2 } from "./Codility.ts/Solution2"
-
+import { maxSizeSubArray } from "./MaxSizeSubArr/MaxSizeSubArr"
 
 //console.log(solution([1, 3, 6, 4, 1, 2]))
-console.log(removeElement([0,1,2,2,3,0,4,2],2))
+//console.log(removeElement([0,1,2,2,3,0,4,2],2))
 //console.log(merge([1,2,3,0,0,0], 3, [2,5,6], 3))
 //console.log(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
 //console.log(majorityElement([6,6,6,7,7]))
@@ -35,4 +35,5 @@ console.log(removeElement([0,1,2,2,3,0,4,2],2))
 //console.log(pivotIndex([1, 7, 3, 6, 5, 6]))
 //console.log(minSubArrayLen(7, [2,3,1,2,4,3]))
 //console.log(isPalindrome("abcba"))
-//console.log(maxSumSubArray([2, 1, 5, 1, 3, 2], 3))
+console.log(maxSumSubArray([2, 1, 5, 1, 3, 2], 3))
+console.log(maxSizeSubArray([2, 1, 5, 1, 3, 2], 3));
